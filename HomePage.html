@@ -1,0 +1,308 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Classified Ads System</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            color: #333;
+        }
+        header {
+            background-color: black;
+            color: white;
+            padding: 10px 0;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo img {
+            height: 40px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            color: #ccc;
+        }
+        .search-bar {
+            position: relative;
+        }
+        .search-bar input {
+            padding: 5px 10px;
+            border-radius: 20px;
+            border: none;
+            padding-right: 30px;
+        }
+        .search-bar i {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #ccc;
+        }
+        .icons i {
+            margin: 0 10px;
+        }
+        main {
+            text-align: center;
+            padding: 50px 0;
+            background: linear-gradient(to right, white 50%, #f0f0f0 50%);
+        }
+        main h1 {
+            font-size: 3em;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        main p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        .cta-button {
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+        .cta-button:hover {
+            background-color: #333;
+        }
+        .image-container {
+            margin-top: 30px;
+            text-align: right;
+        }
+        .image-container img {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+        }
+        .assistant {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .assistant i {
+            font-size: 2em;
+            color: #f39c12;
+            margin-right: 10px;
+        }
+        .assistant p {
+            margin: 0;
+        }
+        .assistant p:first-child {
+            font-weight: bold;
+        }
+        .section {
+            padding: 50px 0;
+            text-align: center;
+        }
+        .section h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .section .grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .section .grid .card {
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .section .grid .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .section .grid .card h3 {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+        .section .grid .card p {
+            font-size: 1em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img alt="Classified Ads Logo" src="https://storage.googleapis.com/a1aa/image/UYXI7E9O4CDv27kzriGCGQy4p66B708EUsoGpbB1YfQ.jpg"/>
+            </div>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Categories</a>
+                <a href="#">Post Ad</a>
+                <a href="#">Contact</a>
+            </nav>
+            <div class="search-bar">
+                <input placeholder="Search ads" type="text"/>
+                <i class="fas fa-search"></i>
+            </div>
+            <div class="icons">
+                <i class="fas fa-shopping-cart"></i>
+                <i class="fas fa-globe"></i>
+                <i class="fas fa-user"></i>
+                <a href="#" style="color: white;">Sign in</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="text-content">
+                <h1>Find the Best Deals on Classified Ads</h1>
+                <p>Discover great deals on a wide range of products and services.</p>
+                <button class="cta-button">Post Your Ad</button>
+                <p>Join thousands of users who trust our platform.</p>
+            </div>
+            <div class="image-container">
+                <img alt="A variety of products and services available on the platform" src="https://storage.googleapis.com/a1aa/image/ZBSphYg9MG7H8vHYFKbjkJJXgLHtt3sDLTWvWipMVsI.jpg"/>
+            </div>
+        </div>
+    </main>
+    <section class="section">
+        <h2>Featured Ads</h2>
+        <div class="grid">
+            <div class="card">
+                <img alt="Featured Ad 1" height="200" src="https://storage.googleapis.com/a1aa/image/L88vAX22qugO20OhQnhms4KCntT2LDc8Pcih8otYgeE.jpg" width="300"/>
+                <h3>Ad Title 1</h3>
+                <p>Description of the featured ad 1.</p>
+            </div>
+            <div class="card">
+                <img alt="Featured Ad 2" height="200" src="https://storage.googleapis.com/a1aa/image/Bs003P_DeSBI_CBi9q-maOcu2hClMljREheH2ZXYAUg.jpg" width="300"/>
+                <h3>Ad Title 2</h3>
+                <p>Description of the featured ad 2.</p>
+            </div>
+            <div class="card">
+                <img alt="Featured Ad 3" height="200" src="https://storage.googleapis.com/a1aa/image/kcW7Oyyqlc2OBcWqe6mrf-8vlOoTHvWrxVUWRbm-7O0.jpg" width="300"/>
+                <h3>Ad Title 3</h3>
+                <p>Description of the featured ad 3.</p>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <h2>Categories</h2>
+        <div class="grid">
+            <div class="card">
+                <img alt="Category 1" height="200" src="https://storage.googleapis.com/a1aa/image/mEgErAM3V8jT1u15cebSv_mIOLX91n28SKTNdkWGUWE.jpg" width="300"/>
+                <h3>Category 1</h3>
+                <p>Description of category 1.</p>
+            </div>
+            <div class="card">
+                <img alt="Category 2" height="200" src="https://storage.googleapis.com/a1aa/image/20TjaJDmdvrXvbVNUdstsCq7rWvNAFKESAZScBQb7U8.jpg" width="300"/>
+                <h3>Category 2</h3>
+                <p>Description of category 2.</p>
+            </div>
+            <div class="card">
+                <img alt="Category 3" height="200" src="https://storage.googleapis.com/a1aa/image/pnkZJnh92d5ULoMr67bR-s715tX-F_5XVmNfRe7-GVM.jpg" width="300"/>
+                <h3>Category 3</h3>
+                <p>Description of category 3.</p>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <h2>Recent Ads</h2>
+        <div class="grid">
+            <div class="card">
+                <img alt="Recent Ad 1" height="200" src="https://storage.googleapis.com/a1aa/image/aTdulLihy9Yev6-PfRHy-gOKSsHzebWeoAVR9K2EkPU.jpg" width="300"/>
+                <h3>Ad Title 1</h3>
+                <p>Description of the recent ad 1.</p>
+            </div>
+            <div class="card">
+                <img alt="Recent Ad 2" height="200" src="https://storage.googleapis.com/a1aa/image/mbupxJzU91tuvADivxDTHJyn_4DZTo92xq-TCE-dZpQ.jpg" width="300"/>
+                <h3>Ad Title 2</h3>
+                <p>Description of the recent ad 2.</p>
+            </div>
+            <div class="card">
+                <img alt="Recent Ad 3" height="200" src="https://storage.googleapis.com/a1aa/image/4KlV6auXH7tuMmnh9V-tqglzgWDrU-W2OmwAXgnpqh8.jpg" width="300"/>
+                <h3>Ad Title 3</h3>
+                <p>Description of the recent ad 3.</p>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-gray-200 py-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Autodesk</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-700 hover:text-gray-900">Company overview (US Site)</a></li>
+                        <li><a href="#" class="text-gray-700 hover:text-gray-900">Careers (US Site)</a></li>
+                        <li><a href="#" class="text-gray-700 hover:text-gray-900">Investor relations (US Site) <i class="fas fa-external-link-alt text-sm"></i></a></li>
+                        <li><a href="#" class="text-gray-700 hover:text-gray-900">Newsroom <i class="fas fa-external-link-alt text-sm"></i></a></li>
+                        <li><a href="#" class="text-gray-700 hover:text-gray-900">Diversity and belonging (US Site)</a></li>
+                        <li><a href="#" class="text-gray-700 hover:text-gray-900">LA28 Games</a></li>
+                    </ul>
+                    <div class="flex space-x-4 mt-4">
+                        <a href="#" class="text-gray-700 hover:text-gray-900"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-gray-700 hover:text-gray-900"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-gray-700 hover:text-gray-900"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-700 hover:text-gray-900"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="text-gray-700 hover:text-gray-900"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">How to buy</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-700 hover:text-gray-900">View all products</a></li>
+                        <li><a href="#" class="text-gray-700 hover:text-gray-900">Buying with Autodesk</a></li>
+                        <li><a href="#" class="text-gray-700 hover:text-gray-900">Renewal options</a></li>
+                        <li><a href="#" class="text-gray-700 hover:text-gray-900">Find a partner</a></li>
+                        <li><a href="#" class="text-gray-700 hover:text-gray-900">Sales and refunds</a></li>
+                        <li><a href="#" class="text-gray-700 hover:text-gray-900">Choose your subscription plan</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Support</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-700 hover:text-gray-900">Product support</a></li>
+                        <li><a href="#" class="text-gray-700 hover:text-gray-900">Manage your account</a></li>
+                        <li><a href="#" class="text-gray-700 hover:text-gray-900">Download and install software</a></li>
+                        <li><a href="#" class="text-gray-700 hover:text-gray-900">COVID-19 resources</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <footer class="bg-gray-300 py-4">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-sm text-gray-500">
+            <p>Privacy | Cookie preferences | Report noncompliance | Terms of use | Legal (US Site) | © 2025 Autodesk Inc. All rights reserved</p>
+        </div>
+    </footer>
+    <div class="fixed bottom-4 right-4 bg-white border rounded-lg shadow-lg p-4 flex items-center space-x-2">
+        <span class="text-yellow-500 text-lg">👋</span>
+        <div>
+            <p class="font-semibold">Hello, I'm Autodesk Assistant!</p>
+            <p class="text-sm text-gray-600">I can help with product selection, support questions or connect you to an agent.</p>
+        </div>
+        <button class="text-gray-500 hover:text-gray-700"><i class="fas fa-times"></i></button>
+    </div>
+</body>
+</html>

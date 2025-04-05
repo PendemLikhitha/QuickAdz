@@ -1,0 +1,104 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #01274d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Form Container */
+.form-container {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 450px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Heading */
+h2 {
+    color: #ff6f00;
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* Form Styling */
+.edit-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-form label {
+    font-weight: 600;
+    text-align: left;
+    margin-top: 10px;
+    color: #333;
+}
+
+/* Input Fields */
+.edit-form input,
+.edit-form textarea,
+.edit-form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+    outline: none;
+    transition: 0.3s ease;
+    background: #f9f9f9;
+}
+
+/* Hover & Focus Effects */
+.edit-form input:focus,
+.edit-form textarea:focus,
+.edit-form select:focus {
+    border-color: #ff6f00;
+    background: #e7a9a9;
+    box-shadow: 0 0 5px rgba(255, 111, 0, 0.5);
+}
+
+/* Textarea */
+.edit-form textarea {
+    resize: vertical;
+    height: 80px;
+}
+
+/* Submit Button */
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background: #ff6f00;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.submit-btn:hover {
+    background: #e65c00;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .form-container {
+        width: 90%;
+    }
+}
