@@ -73,7 +73,11 @@ QuickAdz includes a secure **Forgot Password** workflow using **PHPMailer**. Her
 
 ###  Home Page
 
-![Image](https://github.com/user-attachments/assets/4c769bf2-c0f2-44e5-b07b-c9fc20c43957)
+![image](https://github.com/user-attachments/assets/b82c2ee3-9728-4b17-94df-5b95437d34b3)
+![image](https://github.com/user-attachments/assets/daf95663-4e41-4e13-836f-c08a28eec2c9)
+![image](https://github.com/user-attachments/assets/66c1d773-1648-47f1-bd7b-2e10e1ab6616)
+![image](https://github.com/user-attachments/assets/e15de880-a823-4371-a90e-dd27ee58eb40)
+
 
 ###  About Page
 
@@ -94,50 +98,71 @@ QuickAdz includes a secure **Forgot Password** workflow using **PHPMailer**. Her
 
 ### FORGOT PASSWORD PAGE 
 
-![Image](https://github.com/user-attachments/assets/00346c79-1857-4e97-942f-9faddcdcb637)
+![Screenshot 2025-04-02 201752](https://github.com/user-attachments/assets/7de3f2dd-828c-470d-ae3a-7a89615cfa4d)
+
 
 ### OTP received in the email
 
-![image](https://github.com/user-attachments/assets/cc39b757-d64a-4c3f-b19f-445efc86e97a)
+![Screenshot 2025-04-02 201817](https://github.com/user-attachments/assets/0b41571c-6be3-465d-b4ab-07e9ef02f7b0)
+
 
 ### OTP VERIFICATION PAGE 
 
-![Image](https://github.com/user-attachments/assets/2d0a79b6-e06e-445b-9006-e13e98c56867)
+![Screenshot 2025-04-02 201832](https://github.com/user-attachments/assets/720aee49-2b2c-43bf-88c2-0de0e3d36b43)
+
 
 ### PASSWORD RESET PAGE 
 
-![Image](https://github.com/user-attachments/assets/97e2b7dd-73cf-4552-a0a2-6944215e2b58)
+![Screenshot 2025-04-02 201853](https://github.com/user-attachments/assets/14f667cf-1c68-4ef0-8496-4596471b8efe)
+
 
 ###  User Dashboard Page
 
-![image](https://github.com/user-attachments/assets/93d727b9-f856-4433-bb90-00fd84c99fc8)
+![Screenshot 2025-04-03 105638](https://github.com/user-attachments/assets/1dc97e8f-9c25-4dc6-a442-70aa98e1f014)
+
 
 
 ###  Posting Ad Page
 
-![image](https://github.com/user-attachments/assets/941de105-0abe-4558-b805-c3115a19fa58)
+![Screenshot 2025-04-02 201324](https://github.com/user-attachments/assets/aea68e11-30c4-41f7-bd90-bd016b322b27)
+
+
+
+### After Posting an Ad
+
+![Screenshot 2025-04-02 201642](https://github.com/user-attachments/assets/2ab110d9-327b-4995-ba5c-e65f60cb549c)
+
 
 
 ###  Edit Profile Page
 
-![image](https://github.com/user-attachments/assets/f6de0129-0738-488d-9833-98bbf45a3707)
+![Screenshot 2025-04-02 201516](https://github.com/user-attachments/assets/63af675d-e498-4d39-b1d3-ca6208faad93)
+
+
+### After editing profile
+
+![Screenshot 2025-04-02 201516](https://github.com/user-attachments/assets/701358e5-f8f8-42fa-b091-54bf7961a3f3)
 
 
 ### EDIT POST PAGE
 
-![image](https://github.com/user-attachments/assets/e05c9154-552a-453d-9e04-41b1f4471dae)
+![Screenshot 2025-04-02 201544](https://github.com/user-attachments/assets/a6369211-a0b4-4155-b810-e0221e305f97)
+
 
 ###  AdminDashboard Page
 
-![image](https://github.com/user-attachments/assets/ecc3afa5-3931-4308-949f-f7c328f037de)
+![Screenshot 2025-04-02 201712](https://github.com/user-attachments/assets/52066f96-6a5f-46ca-b1d7-4fd22fbb9cfb)
+
 
 ### MANAGE USERS PAGE
 
-![image](https://github.com/user-attachments/assets/c96c6263-6fe5-4e9e-b609-5ff26d8cf4d3)
+![Screenshot 2025-04-02 201720](https://github.com/user-attachments/assets/deb6a6a6-8e99-400b-aed6-045b073e8cd4)
 
-### MANAGE USERS PAGE
 
-![image](https://github.com/user-attachments/assets/4d4b8e0b-9c0d-43e7-8549-b12566fd1e62)
+### MANAGE ADS PAGE
+
+![Screenshot 2025-04-02 201733](https://github.com/user-attachments/assets/9298afce-7da9-457f-b109-1a340a6cfcc4)
+
 
 ### DATABASE : classified_db
 
