@@ -71,7 +71,86 @@ QuickAdz includes a secure **Forgot Password** workflow using **PHPMailer**. Her
 
 ## 📸 Screenshots
 
-![Image](https://github.com/user-attachments/assets/be9ed38a-4299-4fbb-ac63-d80749907aca)
+###  Home Page
+
+![Image](https://github.com/user-attachments/assets/4c769bf2-c0f2-44e5-b07b-c9fc20c43957)
+
+###  About Page
+
+![Image](https://github.com/user-attachments/assets/3ddd90fe-552d-4b28-80a8-ffe8e8c3fe39)
+
+###  Categories Page
+
+![Image](https://github.com/user-attachments/assets/f3dc6202-7fdb-42cf-a1f0-f2e1e37f34b7)
+![Image](https://github.com/user-attachments/assets/f1a77a97-df6f-4cfe-abb0-78b6a54b1d31)
+
+###  Login Page
+
+![Image](https://github.com/user-attachments/assets/3cfc7013-1850-424b-8e07-4472a2fccb11)
+
+###  SignUp Page
+
+![Image](https://github.com/user-attachments/assets/bb941a51-b0db-4647-ada1-471bc760efca)
+
+### FORGOT PASSWORD PAGE 
+
+![Image](https://github.com/user-attachments/assets/00346c79-1857-4e97-942f-9faddcdcb637)
+
+### OTP received in the email
+
+![image](https://github.com/user-attachments/assets/cc39b757-d64a-4c3f-b19f-445efc86e97a)
+
+### OTP VERIFICATION PAGE 
+
+![Image](https://github.com/user-attachments/assets/2d0a79b6-e06e-445b-9006-e13e98c56867)
+
+### PASSWORD RESET PAGE 
+
+![Image](https://github.com/user-attachments/assets/97e2b7dd-73cf-4552-a0a2-6944215e2b58)
+
+###  User Dashboard Page
+
+![image](https://github.com/user-attachments/assets/93d727b9-f856-4433-bb90-00fd84c99fc8)
+
+
+###  Posting Ad Page
+
+![image](https://github.com/user-attachments/assets/941de105-0abe-4558-b805-c3115a19fa58)
+
+
+###  Edit Profile Page
+
+![image](https://github.com/user-attachments/assets/f6de0129-0738-488d-9833-98bbf45a3707)
+
+
+### EDIT POST PAGE
+
+![image](https://github.com/user-attachments/assets/e05c9154-552a-453d-9e04-41b1f4471dae)
+
+###  AdminDashboard Page
+
+![image](https://github.com/user-attachments/assets/ecc3afa5-3931-4308-949f-f7c328f037de)
+
+### MANAGE USERS PAGE
+
+![image](https://github.com/user-attachments/assets/c96c6263-6fe5-4e9e-b609-5ff26d8cf4d3)
+
+### MANAGE USERS PAGE
+
+![image](https://github.com/user-attachments/assets/4d4b8e0b-9c0d-43e7-8549-b12566fd1e62)
+
+### DATABASE : classified_db
+
+![image](https://github.com/user-attachments/assets/caf4062b-3164-4647-8c63-88ab2b6e3ce5)
+
+### DATABASE : users table
+
+![image](https://github.com/user-attachments/assets/b38b7919-8650-4523-8436-67e19d288f3b)
+
+### DATABASE : ads table
+
+![image](https://github.com/user-attachments/assets/e6f7bf93-88d9-461f-94b7-8bdba8fea64e)
+
 
 ## 🔧 Future Enhancements
 
